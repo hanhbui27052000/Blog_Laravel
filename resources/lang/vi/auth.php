@@ -11,5 +11,4 @@ return [
     'confirmPassword' => 'Nhập lại mật khẩu',
     'rememberMe' => 'Nhớ mật khẩu',
     'forgotPassword' => 'Quên mật khẩu?'
-
 ];
