@@ -22,5 +22,9 @@
     "My Post": "Post của tôi",
     "Leave a comment": "Hãy để lại bình luận",
     "Post": "Đăng",
-    "Login to Comment": "Đăng nhập để bình luận"
+    "Login to Comment": "Đăng nhập để bình luận",
+    "Comment_success": "Bạn đã bình luận thành công",
+    "permission_comment": "Bạn không đủ quyền để bình luận",
+    "comment_delete": "Xóa Bình luận thành công",
+    "delete_comment": "Xóa bình luận"
 }

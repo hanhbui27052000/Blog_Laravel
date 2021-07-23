@@ -24,3 +24,9 @@ Route::middleware(['auth'])->group(function (){
 });
 
 Route::resource('/post', PostController::class)->only('show');
+//route comment
+Route::prefix('/comment')->middleware('auth')->group(function(){
+    Route::post('/add', [App\Http\Controllers\CommentController::class, 'store']);
+    Route::get('/delete/{id}', [App\Http\Controllers\CommentController::class, 'delete']);
+});
+
