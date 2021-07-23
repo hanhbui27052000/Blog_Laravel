@@ -30,4 +30,3 @@ Route::prefix('/comment')->middleware('auth')->group(function(){
     Route::get('/delete/{id}', [App\Http\Controllers\CommentController::class, 'delete']);
 });
 
-Route::get('/post/{id}', [App\Http\Controllers\PostController::class, 'showPost']);

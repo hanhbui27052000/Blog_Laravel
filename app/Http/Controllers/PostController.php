@@ -158,25 +158,4 @@ class PostController extends Controller
         } 
         return redirect('/home')->with($data);
     }
-
-    public function delete($id){
-        $post = Post::find($id);
-        if(Auth::user()->id == $post->user_id || Auth::user()->role == 'admin'){
-            $post->delete();
-            $data['message'] = 'Post deleted Successfully';
-        }
-        else{
-            $data['errors'] = 'Invalid Operation. You have not sufficient permissions';
-        } 
-        return redirect('/home')->with($data);
-    }
-
-    public function showPost($id){
-        $post = Post::find($id);
-        $comments = Comment::where('post_id',$id)->get(); 
-        if(!$post){
-            return redirect('/home')->withErrors('requested page not found');
-        }
-        return view('post.show',compact('post','comments'));
-    }
 }
