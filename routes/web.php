@@ -37,3 +37,4 @@ Route::prefix('/comment')->middleware('auth')->group(function(){
 
 Route::get('/user/{id}', [UserController::class, 'profile']);
 Route::get('/user/{id}/post', [UserController::class, 'user_post_active']);
+
