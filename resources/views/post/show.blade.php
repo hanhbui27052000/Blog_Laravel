@@ -27,7 +27,6 @@
         <form method="post" action="/comment/add">
             @csrf
             <input type="hidden" name="post_id" value="{{ $post->id }}">
-
             <div class="form-group">
                 <textarea required="required" placeholder="Enter comment here" name="body"
                     class="form-control"></textarea>

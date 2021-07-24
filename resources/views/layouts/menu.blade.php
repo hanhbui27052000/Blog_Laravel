@@ -35,15 +35,14 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         {{ Auth::user()->name }}
                     </a>
-
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ asset('/post/create') }}">
                             {{ __('add_post') }}
                         </a>
-                        <a class="dropdown-item" href="">
+                        <a class="dropdown-item" href="{{ asset('/user') }}/{{Auth::user()->id}}/post">
                             {{ __('my_post') }}
                         </a>
-                        <a class="dropdown-item" href="">
+                        <a class="dropdown-item" href="{{ asset('/user') }}/{{Auth::user()->id}}">
                             {{ __('my_profile') }}
                         </a>
                         <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();

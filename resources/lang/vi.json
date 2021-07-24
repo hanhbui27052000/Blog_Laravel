@@ -26,5 +26,15 @@
     "Comment_success": "Bạn đã bình luận thành công",
     "permission_comment": "Bạn không đủ quyền để bình luận",
     "comment_delete": "Xóa Bình luận thành công",
-    "delete_comment": "Xóa bình luận"
+    "delete_comment": "Xóa bình luận",
+    "Joined_on": "Đã tham gia vào",
+    "Total_Post": "Tổng số bài viết",
+    "Published_Post": "Số bài đã hiển thị",
+    "Posts_in_Draft": "Số bài nháp",
+    "Show_All": "Hiển thị tất cả",
+    "Latest_Comment": "Bình luận mới nhất",
+    "Total_Comment": "Tổng bình luận",
+    "On_Post": "Trên bài viết",
+    "Post_Null": "Bạn chưa viết bất kỳ bài nào cho đến bây giờ.",
+    "Comment_Null": "Bạn đã không bình luận nào cho đến bây giờ. 5 bình luận mới nhất của bạn sẽ được hiển thị ở đây."
 }

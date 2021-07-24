@@ -21,21 +21,27 @@ class DatabaseSeeder extends Seeder
                 'name' => 'admin',
                 'email' => 'admin@gmail.com',
                 'password' => bcrypt('12345678'),
-                'role' => 'admin'
+                'role' => 'admin',
+                'created_at' => '2021-07-14 10:00:10',
+                'updated_at'=> '2021-07-14 10:00:10'
             ],
             [
                 'id' => 2,
                 'name' => 'Hạnh Bùi',
                 'email' => 'hanhbui27052000@gmail.com',
                 'password' => bcrypt('12345678'),
-                'role' => 'author'
+                'role' => 'author',
+                'created_at' => '2021-07-14 11:00:20',
+                'updated_at'=> '2021-07-14 11:00:20'
             ],
             [
                 'id' => 3,
                 'name' => 'Nguyễn Văn A',
                 'email' => 'nguyenvana@gmail.com',
                 'password' => bcrypt('12345678'),
-                'role' => 'subscriber'
+                'role' => 'subscriber',
+                'created_at' => '2021-07-14 11:10:10',
+                'updated_at'=> '2021-07-14 11:10:10'
             ]
             ];
 
